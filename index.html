@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="base.css">
+    <script src="jquery-3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="./base.js"></script>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="body">
+        <div class="header">
+            <div class="inner">
+                <div class="menu">
+                    <div class="menu_icon">
+                        <div class="button">
+                            <span class="only"></span>
+                            <span class="bar1"></span>
+                            <span class="bar2"></span>
+                            <span class="bar3"></span>
+                        </div>
+                        <div class="menu_con">
+                            <a href=""><span id="knowledge">健身知识</span></a>
+                            <a href=""><span id="practice">健身训练</span></a>
+                            <a href=""><span id="video">健身视频</span></a>
+                            <a href=""><span id="about">关于偶家</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <a href="" class="logo">
+                        <img src="images/logo3.png" />
+                    </a>
+                </div>
+
+                <div class="item">
+                    <ul>
+                        <li>
+                            <span id="login"><a href="">登录</a></span>&nbsp;|
+                            <span id="register"><a href="">注册</a></span>
+                        </li>
+                        <li class="search_bar">
+                            <form name="input" id="myform" target="_blank" method="POST" action="http://www.baidu.com/s">
+                                <input type="text" class="input" value="健身" onfocus="this.value=''" onblur="if(this.value==''){this.value='健身';}">
+                                <input id="search_btn" class="iconfont" type="submit" value="&#xe613">
+                            </form>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- **************************************以上为导航栏************************************** -->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- 指示符 -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+            </ul>
+
+            <!-- 轮播图片 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner-1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner-1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner-1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner-1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner-1.jpg">
+                </div>
+            </div>
+
+            <!-- 左右切换按钮 -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+        <!-- **************************************以上为轮播图,用到bootstrap框架************************************** -->
+        <div class="p2_con">
+            <div class="p2_header">
+                <p>KNOWLEDGE/健身知识</p>
+            </div>
+
+            <div class="p2_menu">
+                <ul>
+                    <li><a href="">资讯</a>
+                        <div class="redba"></div>
+                    </li>
+                    <li><a href="">减肥</a>
+                        <div class="redba"></div>
+                    </li>
+                    <li><a href="">增肌</a>
+                        <div class="redba"></div>
+                    </li>
+                    <li><a href="">瑜伽</a>
+                        <div class="redba"></div>
+                    </li>
+                    <li><a href="">健身器材</a>
+                        <div class="redba" id="letter4"></div>
+                    </li>
+                    <li><a href="">健身知识</a>
+                        <div class="redba" id="letter4"></div>
+                    </li>
+                    <li><a href="">Hi健身学堂</a>
+                        <div class="redba" id="letter5"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list-bd">
+                <ul>
+                    <li class="list-item">
+                        <div class="item-pic">
+                            <a href="//www.hiyd.com/zixun/4002.html">
+                                <img src="images/6dd8e2f716d8c8afaf90e9bc18fe292b.webp.jpg" alt="2018年世界大力士冠军，硬拉1041磅打破世界纪录：喜欢小狗狗" />
+                            </a>
+                        </div>
+
+                        <div class="item-content">
+                            <span><a href="//www.hiyd.com/zixun/4002.html">2018年世界大力士冠军，硬拉1041磅打破世界纪录：喜欢小狗狗</a></span>
+                            <em>Hanley&nbsp;&nbsp;&nbsp;&nbsp;2018-05-11 14:43:56</em>
+                            <p>
+                                <a href="//www.hiyd.com/zixun/4002.html">
+                                    Hafþór Júlíus Björnsson，今年29岁，来自冰岛，在权利的游戏中出演过格雷果·克里冈爵士。
+                                    在奇幻小说《冰与火之歌》中，该角色因身形巨大、力能扛......
+                                    <span>[详细]</span>
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <div class="item-pic">
+                            <a href="//www.hiyd.com/zixun/3999.html"><img src="images/daf3275202b51a53bc0ab79bcb3f2f25.webp.jpg"
+                                    alt="72岁史泰龙为新电影疯狂训练，状态惊人：年龄只是数字" /></a>
+                        </div>
+                        <div class="item-content">
+                            <span><a href="//www.hiyd.com/zixun/3999.html">72岁史泰龙为新电影疯狂训练，状态惊人：年龄只是数字</a></span>
+                            <em>Hanley&nbsp;&nbsp;&nbsp;&nbsp;2018-05-05 16:39:11</em>
+                            <p><a href="//www.hiyd.com/zixun/3999.html">
+                                    当年《洛奇》里的史泰龙，如今已经72岁了，为了新电影再次复出。
+                                    &nbsp;
+                                    迈克尔•西尔维斯特•恩奇奥•史泰龙（Michael Sylvester Gardenzio S......
+                                    <span>[详细]</span>
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <div class="item-pic">
+                            <a href="//www.hiyd.com/zixun/3996.html"><img src="images/cccfff79590d25c3957db2266608c5df.webp.jpg"
+                                    alt="36岁小甜甜布兰妮身材仍然火辣：倒立、后空翻统统不在话下" /></a>
+                        </div>
+                        <div class="item-content">
+                            <span><a href="//www.hiyd.com/zixun/3996.html">36岁小甜甜布兰妮身材仍然火辣：倒立、后空翻统统不在话下</a></span>
+                            <em>Hanley&nbsp;&nbsp;&nbsp;&nbsp;2018-05-03 17:27:26</em>
+                            <p><a href="//www.hiyd.com/zixun/3996.html">
+                                    小甜甜布兰妮斯一直以来为人熟知的是她的音乐作品，甚至对于一批人来说，她的音乐作品是欧美音乐的启蒙。
+                                    除了布兰妮的一首首脍炙人口的歌曲之外，让人印象深刻的莫过于她性感火辣的身材~
+                                    ......<span>[详细]</span>
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="foot_p2">
+                    <span class="more"><a href="">MORE+</a></span>
+                </div>
+
+            </div>
+        </div>
+        <!-- **************************************以上为page2结构************************************** -->
+        <div class="p3_bg">
+            <div class="p3_bgc">
+                <div class="p3_con">
+                    <div class="p3_header">
+                        <p>TRIANING/健身训练</p>
+                    </div>
+
+                    <div class="p3_content">
+                        <div class="Piece">
+                            <p class="red_icon" id="red_p3"><a href="">课程</a></p>
+                            <span class="more" id="more_p3"><a href="">MORE+</a></span>
+                            <div class="p3_content_img">
+                                <a href=""><img src="images/3dea6c54477abac09a87614761e7cbd4.webp.jpg" alt=""></a>
+                                <div class="p3_bar">
+                                    <a href="">阿诺德·施瓦辛格的蓝图-增肌篇</a>
+                                </div>
+                            </div>
+                            <div class="p3_content_con">
+                                <ul>
+                                    <li><a href="">增肌训练计划</a></li>
+                                    <li><a href="">塑形脱脂的训练计划</a></li>
+                                    <li><a href="">8周为一个周期</a></li>
+                                    <li><a href="">本训练计划主要针对增肌</a></li>
+                                    <li><a href="">这套计划会用到超级组</a></li>
+                                    <li><a href="">想塑形和修肌肉线条</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="Piece">
+                            <p class="red_icon" id="red_p3"><a href="">计划</a></p>
+                            <span class="more" id="more_p3"><a href="">MORE+</a></span>
+                            <div class="p3_content_img">
+                                <a href=""><img src="images/539c4394a72ecc5b194a276a23eec413.jpg" alt=""></a>
+                                <div class="p3_bar">
+                                    <a href="">阿诺德·施瓦辛格的蓝图-增肌篇</a>
+                                </div>
+                            </div>
+                            <div class="p3_content_con">
+                                <ul>
+                                    <li><a href="">增肌训练计划</a></li>
+                                    <li><a href="">塑形脱脂的训练计划</a></li>
+                                    <li><a href="">8周为一个周期</a></li>
+                                    <li><a href="">本训练计划主要针对增肌</a></li>
+                                    <li><a href="">这套计划会用到超级组</a></li>
+                                    <li><a href="">想塑形和修肌肉线条</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="Piece">
+                            <p class="red_icon" id="red_p3"><a href="">饮食</a></p>
+                            <span class="more" id="more_p3"><a href="">MORE+</a></span>
+                            <div class="p3_content_img">
+                                <a href=""><img src="images/36412d05104b5bd5a12664e2c76e933b.webp.jpg" alt=""></a>
+                                <div class="p3_bar">
+                                    <a href="">阿诺德·施瓦辛格的蓝图-增肌篇</a>
+                                </div>
+                            </div>
+                            <div class="p3_content_con">
+                                <ul>
+                                    <li><a href="">增肌训练计划</a></li>
+                                    <li><a href="">塑形脱脂的训练计划</a></li>
+                                    <li><a href="">8周为一个周期</a></li>
+                                    <li><a href="">本训练计划主要针对增肌</a></li>
+                                    <li><a href="">这套计划会用到超级组</a></li>
+                                    <li><a href="">想塑形和修肌肉线条</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p3_footer">
+                        <p class="red_icon" id="red_p3"><a href="">动作</a></p>
+                        <span class="more" id="more_p3"><a href="">MORE+</a></span>
+                        <div class="Square_con">
+                            <a href="">
+                                <div class="Square_p3"><img src="images/xiongbu.png" alt="">
+                                    <p>胸肌</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="Square_p3"><img src="images/bibu.png" alt="">
+                                    <p>二头肌</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="Square_p3"><img src="images/jianbu.png" alt="">
+                                    <p>三头肌</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="Square_p3"><img src="images/tunbu.png" alt="">
+                                    <p>臀肌</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="Square_p3"><img src="images/fubu.png" alt="">
+                                    <p>腹肌</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="Square_p3"><img src="images/yaobu.png" alt="">
+                                    <p>腰肌</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="Square_p3"><img src="images/beibu.png" alt="">
+                                    <p>背阔肌</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="Square_p3"><img src="images/tuibu.png" alt="">
+                                    <p>腿肌</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- **************************************以上为page3结构************************************** -->
+        <div class="p4_con">
+            <div class="p4_header">
+                <p>VIDEO/健身视频</p>
+                <span class="more" id="more_p4"><a href="">MORE+</a></span>
+            </div>
+            <div class="p4_video">
+                <div class="p4_video_bg">
+                    <a href=""><img src="images/58146c7baf9ddd0311eb1d8dc2357c6c.webp.jpg" class="p4_video_img" alt=""><img
+                            src="images/video.png" alt="" class="video_icon"></a>
+                    <p>4个动作在家瘦腿+翘臀</p>
+                </div>
+                <div class="p4_video_bg">
+                    <a href=""><img src="images/66269e8134145ac9861c408a513f73d7.webp.jpg" class="p4_video_img" alt=""><img
+                            src="images/video.png" alt="" class="video_icon"></a>
+                    <p>4个动作在家瘦腿+翘臀</p>
+                </div>
+                <div class="p4_video_bg">
+                    <a href=""><img src="images/8b5a02bb5102a03b1c940b15220842fb.webp.jpg" class="p4_video_img" alt=""><img
+                            src="images/video.png" alt="" class="video_icon"></a>
+                    <p>4个动作在家瘦腿+翘臀</p>
+                </div>
+                <div class="p4_video_bg">
+                    <a href=""><img src="images/755011216c05c9d77915c509730045d1.webp.jpg" class="p4_video_img" alt=""><img
+                            src="images/video.png" alt="" class="video_icon"></a>
+                    <p>4个动作在家瘦腿+翘臀</p>
+                </div>
+                <div class="p4_video_bg">
+                    <a href=""><img src="images/2c7f904f2cdac4f5e908098692ecfcc0.webp.jpg" class="p4_video_img" alt=""><img
+                            src="images/video.png" alt="" class="video_icon"></a>
+                    <p>4个动作在家瘦腿+翘臀</p>
+                </div>
+                <div class="p4_video_bg">
+                    <a href=""><img src="images/6c1c8c89799916f9f5e7b5590ceddb13.webp.jpg" class="p4_video_img" alt=""><img
+                            src="images/video.png" alt="" class="video_icon"></a>
+                    <p>4个动作在家瘦腿+翘臀</p>
+                </div>
+            </div>
+        </div>
+        <!-- **************************************以上为page4结构************************************** -->
+        <div class="footer">
+            <div class="training">
+                <div class="training_box">
+                    <div class="training_section" id="s1">
+                        <span>器械动作</span>
+                        <ul class="su">
+                            <li><a href="https://www.hiyd.com/dongzuo/?equipment=8">哑铃</a> <a href="https://www.hiyd.com/dongzuo/?equipment=10">杠铃</a>
+                                <a href="https://www.hiyd.com/dongzuo/?equipment=11">壶铃</a> <a href="https://www.hiyd.com/dongzuo/?equipment=20">弹力带</a>
+                                <a href="https://www.hiyd.com/dongzuo/?equipment=23">TRX绳</a> <a href="https://www.hiyd.com/dongzuo/?equipment=24">战绳</a>
+                            </li>
+                            <li><a href="https://www.hiyd.com/dongzuo/?equipment=15">药球</a> <a href="https://www.hiyd.com/dongzuo/?equipment=19">瑞士球</a>
+                                <a href="https://www.hiyd.com/dongzuo/?equipment=53">波速球</a> <a href="https://www.hiyd.com/dongzuo/?equipment=17">泡沫轴</a>
+                                <a href="https://www.hiyd.com/dongzuo/?equipment=32">龙门架</a> </li>
+                            <li><a href="https://www.hiyd.com/dongzuo/?equipment=56">推肩器</a> <a href="https://www.hiyd.com/dongzuo/?equipment=37">倒蹬机</a>
+                                <a href="https://www.hiyd.com/dongzuo/?equipment=38">哈克机</a> <a href="https://www.hiyd.com/dongzuo/?equipment=39">腿弯举机</a>
+                            </li>
+                            <li><a href="https://www.hiyd.com/dongzuo/?equipment=30">推胸机</a> <a href="https://www.hiyd.com/dongzuo/?equipment=51">悍马机</a>
+                                <a href="https://www.hiyd.com/dongzuo/?equipment=33">夹胸器</a> <a href="https://www.hiyd.com/dongzuo/?equipment=34">划船机</a>
+                                <a href="https://www.hiyd.com/dongzuo/?equipment=35">下拉机</a> </li>
+                            <li><a href="https://www.hiyd.com/dongzuo/?equipment=28">单杠</a> <a href="https://www.hiyd.com/dongzuo/?equipment=29">双杠</a>
+                                <a href="https://www.hiyd.com/dongzuo/?equipment=26">仰卧板</a> <a href="https://www.hiyd.com/dongzuo/?equipment=27">罗马椅</a>
+                                <a href="https://www.hiyd.com/dongzuo/?equipment=52">牧师凳</a> </li>
+                            <li><a href="https://www.hiyd.com/dongzuo/?equipment=31">史密斯机</a> <a href="https://www.hiyd.com/dongzuo/?equipment=43">提踵机</a>
+                                <a href="https://www.hiyd.com/dongzuo/?equipment=50">地雷架</a> <a href="https://www.hiyd.com/dongzuo/?equipment=40">腿屈伸机</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="training_section" id="s2">
+                        <span>新手课程</span>
+                        <ul class="su">
+                            <li><a href="https://www.hiyd.com/xinshou/">新手专题</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/zhengduoyan/">郑多燕减肥操</a></li>
+                            <li><a href="https://www.hiyd.com/p4p/">P4P健身</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/10minute/">10分钟健身</a></li>
+                            <li><a href="https://www.hiyd.com/slim_in6/">Slim in 6</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/new_slim_in6/">New
+                                    Slim in 6</a></li>
+                            <li><a href="https://www.hiyd.com/power90/">Power 90</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/p90_2014/">P90
+                                    2014</a></li>
+                            <li><a href="https://www.hiyd.com/butt_lift/">翘臀圣经</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/rockinbody/">Rockin
+                                    Body</a></li>
+                        </ul>
+                    </div>
+                    <div class="training_section" id="s3">
+                        <span>进阶课程</span>
+                        <ul class="su">
+                            <li><a href="https://www.hiyd.com/bbl/">巴西翘臀</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/hiphopabs/">Hip-Hop
+                                    abs</a></li>
+                            <li><a href="https://www.hiyd.com/lmc/">莱美搏击操</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/p90m/">P90
+                                    Master</a></li>
+                            <li><a href="https://www.hiyd.com/t25/">T25健身操</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/revabs/">腹肌加速训练</a></li>
+                            <li><a href="https://www.hiyd.com/p90x/">P90X训练</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/insanity/">Insanity</a></li>
+                            <li><a href="https://www.hiyd.com/p90x2/">P90X2训练</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/p90x3/">P90X3训练</a></li>
+                        </ul>
+                    </div>
+                    <div class="training_section" id="s4">
+                        <span>明星课程</span>
+                        <ul class="su">
+                            <li><a href="https://www.hiyd.com/qiutujianshen/">囚徒健身</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/zhengduoyan/">郑多燕减肥操</a></li>
+                            <li><a href="https://www.hiyd.com/guanjunzhixin/">冠军之心</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/jeff_seid/">杰夫&middot;赛德</a></li>
+                            <li><a href="https://www.hiyd.com/kexuejianshen/">科学健身</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/steve_cook/">史蒂夫&middot;库克</a></li>
+                            <li><a href="https://www.hiyd.com/p4p/">P4P健身</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/fujisiliezhe/">腹肌撕裂者X</a></li>
+                            <li><a href="https://www.hiyd.com/t25/">T25健身操</a>&nbsp;|&nbsp;<a href="https://www.hiyd.com/p90x/">P90X训练</a></li>
+                        </ul>
+                    </div>
+                    <div class="training_section" id="s5">
+                        <span>健身动作库</span>
+                        <ul class="su">
+                            <li><a href="https://www.hiyd.com/dongzuo/?muscle=8">肱二头肌</a>&nbsp;&nbsp;<a href="https://www.hiyd.com/dongzuo/?muscle=9">胸肌</a>&nbsp;&nbsp;<a
+                                    href="https://www.hiyd.com/dongzuo/?muscle=10">前臂</a>&nbsp;&nbsp;<a href="https://www.hiyd.com/dongzuo/?muscle=24">外展肌群</a>&nbsp;&nbsp;</li>
+                            <li><a href="https://www.hiyd.com/dongzuo/?muscle=11">中背部</a>&nbsp;&nbsp;<a href="https://www.hiyd.com/dongzuo/?muscle=12">下背部</a>&nbsp;&nbsp;<a
+                                    href="https://www.hiyd.com/dongzuo/?muscle=13">颈部</a>&nbsp;&nbsp;<a href="https://www.hiyd.com/dongzuo/?muscle=26">背阔肌</a>&nbsp;&nbsp;</li>
+                            <li><a href="https://www.hiyd.com/dongzuo/?muscle=14">股四头肌</a>&nbsp;&nbsp;<a href="https://www.hiyd.com/dongzuo/?muscle=15">腘绳肌</a>&nbsp;&nbsp;<a
+                                    href="https://www.hiyd.com/dongzuo/?muscle=16">小腿肌群</a>&nbsp;&nbsp;</li>
+                            <li><a href="https://www.hiyd.com/dongzuo/?muscle=17">肱三头肌</a>&nbsp;&nbsp;<a href="https://www.hiyd.com/dongzuo/?muscle=18">斜方肌</a>&nbsp;&nbsp;<a
+                                    href="https://www.hiyd.com/dongzuo/?muscle=19">肩部</a>&nbsp;&nbsp;</li>
+                            <li><a href="https://www.hiyd.com/dongzuo/?muscle=20">腹肌</a>&nbsp;&nbsp;<a href="https://www.hiyd.com/dongzuo/?muscle=21">臀部肌群</a>&nbsp;&nbsp;<a
+                                    href="https://www.hiyd.com/dongzuo/?muscle=23">内收肌群</a>&nbsp;&nbsp;<a href="https://www.hiyd.com/dongzuo/?muscle=33">髂腰肌</a>&nbsp;&nbsp;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- **************************************以上为页脚新闻滚动结构************************************** -->
+            <div class="footer_end">
+                <div data-hicms-tmpl="foot-links">
+                    <div class="footer_row"> <span class="label">友情链接QQ3107125374：</span>
+                        <a href="http://www.hao123.com/">hao123</a>
+                        |<a target="_blank" href="http://www.jirou.com/">肌肉网</a>
+                        |<a target="_blank" href="http://www.fitnes.cn/">我爱健身网</a>
+                        |<a target="_blank" href="http://qmjs.tiqiu.com/">全民健身</a>
+                        |<a target="_blank" href="http://www.caibb.com/">网络购彩</a>|<a target="_blank" href="http://www.51fit.com.cn">51健身</a>
+                        |<a target="_blank" href="http://www.qiuzk.com/">足球盘口</a>
+                        |<a target="_blank" href="http://hzp.onlylady.com/clinique/">倩碧</a>
+                        |<a target="_blank" href="http://www.kukefit.com">酷客健身</a>
+                        |<a target="_blank" href="http://123.yy.com/">网址导航</a>|<a href="http://baike.pcbaby.com.cn/"
+                            target="_blank">亲子百科</a>
+                        |<a href="https://bbs.pcbaby.com.cn/" target="_blank">亲子论坛</a>
+                        |<a href="http://www.mama.cn/" target="_blank">妈妈网</a>
+                        |<a href="http://www.mama.cn/z/" target="_blank">妈妈网百科</a>
+                        |<a href="http://wenda.pchouse.com.cn/" target="_blank">家居问答</a>
+                        |<a href="http://v.52pk.com/" target="_blank">娱乐视频</a>
+                        |<a href="http://www.3839.com/" target="_blank">好游快爆</a>
+                        |<a href="http://acc.pconline.com.cn/" target="_blank">太平洋外设配件</a>
+                        |<a href="http://www.kaluli.com/" target="_blank">卡路里运动营养</a>
+                        |<a href="http://www.znymqg.com/" target="_blank">羽毛球</a>|<a href="http://qmjs.tiqiu.com/"
+                            target="_blank">全民健身</a>
+                        |<a href="http://www.00791.com/" target="_blank">手游排行榜</a> |<a href="http://www.lmjsport.cn/"
+                            target="_blank">家用跑步机</a>
+                        |<a href="http://www.cnlmj.com/" target="_blank">健身房器材</a> |<a href="http://www.1zuqiu.com/"
+                            target="_blank">足球比分</a>
+                        <br>
+                        <br>合作网站： <a target="_blank" href="http://www.yy.com/">YY直播</a>
+                        |<a target="_blank" href="http://www.ouj.com/">偶家中文网</a>
+                        |<a target="_blank" href="http://www.huya.com/">虎牙直播</a>
+                        |<a target="_blank" href="http://v.huya.com/">虎牙视频</a>
+                        |<a target="_blank" href="http://www.duowan.com/">多玩游戏</a>
+                        |<a target="_blank" href="http://video.duowan.com/">多玩视频</a>|<a target="_blank" href="http://www.huanju.cn/">欢聚时代</a>
+                    </div>
+                </div>
+                <div class="footer_row"> <a class="footer-nav-link" href="/about/" target='_blank'>关于偶家</a>|
+                    <a class="footer-nav-link" href="/sitemap/" target='_blank'>网站地图</a>| <a class="footer-nav-link"
+                        href="//m.hiyd.com/" target='_blank'>手机版本</a>| <span>Copyright (C) 2018 www.hiyd.com 版权所有
+                        广州市偶家科技有限公司</span>
+                </div>
+                <div class="footer_row"> <span>粤网文（2015）1655-286号</span> | <span>粤ICP备15035085号-3</span>
+                </div>
+            </div>
+        </div>
+        <!-- **************************************以上为页脚结构************************************** -->
+    </div>
+</body>
+
+</html>
